@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper
+{
+    width: 100%;
+    height: 100%;
+    /* background-color: crimson; */
+    display: flex;
+}
+
+.lmain{
+    height: 100%;
+    width: 70%;
+    background: url(bg2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.rmain{
+    height: 100%;
+    width: 30%;
+    background-color: white;
+    position: relative;
+    
+}
+.lnav{
+    width: 100%;
+    height: 80px;
+    /* background-color: red; */
+    position: absolute;
+
+    
+}
+.lnav ul{
+    display:flex;
+    align-items: center;
+    padding: 30px;
+    justify-content: flex-start;
+    gap: 60px;
+    font-family: 'Lobster', cursive;
+}
+.lnav ul li{
+    list-style: none;
+}
+.lnav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+}
+.rnav{
+    height: 80px;
+    width: 100%;
+    position: absolute;
+}
+.rnav ul{
+    
+    display:flex;
+    align-items: center;
+    padding: 30px;
+    justify-content: flex-start;
+    gap: 60px;
+    margin-left: 20px;
+    font-size: 17px;
+    font-family: 'Roboto Slab', serif;
+}
+.rnav ul li a{
+    text-decoration: none;
+    color: rgba(0, 0   , 0, 0.5);
+    white-space: nowrap;
+}
+.rnav ul li{
+    list-style: none;
+    color: black;
+}
+.rnav ul i{
+    scale : 1.5
+}
+.content{
+    height : 200px;
+    width: 200px ;
+    /* background-color: crimson; */
+    position: absolute;
+    top: 30%;
+}
+.content h1{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 50px;
+    
+}
